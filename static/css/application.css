@@ -1,0 +1,66 @@
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    min-width: 230px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    font-size: 2em;
+}
+
+.navbar-header-logo {
+	width: 50px;
+  	height: 50px;
+ }
+.navbar-header-wide-logo {
+    width: 150px;
+    height: 50px;
+}
+.home-carousel>.carousel-control {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    border: 0px;
+    top: 45%;
+}
+
+.home-carousel>.carousel-control.right {
+    background: #1995dc no-repeat -8px center;
+}
+
+.home-carousel>.carousel-control.left {
+    background: #1995dc no-repeat -70px center;
+}
+
+.home-carousel>.carousel-indicators{
+    bottom: -20px;
+}
+
+.home-carousel>.carousel-indicators li{
+    background-color: #1995dc;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.home-carousel>.carousel-indicators li.active{
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+}
+
+.home-carousel .jumbotron {
+    text-align: left;
+}
+
+.home-carousel .jumbotron p{
+    font-size: 18px;
+}
+
+.home-carousel .thumbnail {
+    margin-top: 20px;
+}
+

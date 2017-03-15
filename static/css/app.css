@@ -1,0 +1,283 @@
+#animate-ease-in-out {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.btn.btn-submit-bc {
+  color: #FFF;
+  background-color: #5FB0E4;
+}
+.btn.btn-submit-bc:hover,
+.btn.btn-submit-bc:focus {
+  color: #FFF;
+  background-color: #5FB0E4;
+}
+.navbar.navbar-bc {
+  background-color: #FFF;
+  border-color: #5FB0E4;
+  margin-bottom: 0;
+}
+.navbar.navbar-bc .navbar-nav > li .nav-title {
+  display: block;
+  color: white;
+  padding-top: 15px;
+}
+.navbar.navbar-bc .navbar-nav > li > a {
+  font-size: 15px;
+  font-weight: bold;
+  border: 0 solid #5FB0E4;
+  color: #787878;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar.navbar-bc .navbar-nav > li.active > a,
+.navbar.navbar-bc .navbar-nav > li.open > a,
+.navbar.navbar-bc .navbar-nav > li > a:hover,
+.navbar.navbar-bc .navbar-nav > li > a:focus {
+  border-bottom-width: 5px;
+  padding-bottom: 10px;
+  color: #5FB0E4;
+}
+.navbar.navbar-bc .navbar-nav > li > .dropdown-menu {
+  border-radius: 0;
+  margin-right: -1px;
+  min-width: 140px;
+  padding: 0;
+}
+.navbar.navbar-bc .navbar-nav > li > .dropdown-menu > li > a {
+  font-size: 14px;
+  font-weight: 400;
+  border-left: 0 solid #5FB0E4;
+  color: #787878;
+  padding: 10px 20px;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar.navbar-bc .navbar-nav > li > .dropdown-menu > li.active > a,
+.navbar.navbar-bc .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar.navbar-bc .navbar-nav > li > .dropdown-menu > li > a:focus {
+  border-left-width: 5px;
+  padding-left: 15px;
+  background-color: #F5F5F5;
+}
+.navbar.navbar-bc .navbar-nav > li:not(.dropdown-right) > .dropdown-menu {
+  left: 0;
+  right: auto;
+  margin-left: -1px;
+}
+.sign-wizard-bc {
+  padding-top: 70px;
+}
+.sign-wizard-bc .board {
+  width: 75%;
+  margin: 60px auto;
+  height: 500px;
+  background: #FFF;
+}
+.sign-wizard-bc .board > div.board-inner {
+  background: #FAFAFA url(http://subtlepatterns.com/patterns/geometry2.png);
+  background-size: 30%;
+}
+.sign-wizard-bc .board > div.board-inner .liner {
+  height: 2px;
+  background: #ddd;
+  position: absolute;
+  width: 60%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: 1;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs {
+  position: relative;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li {
+  /*
+                    &:after {
+                        content: " ";
+                        position: absolute;
+                        left: 45%;
+                        opacity:0;
+                        margin: 0 auto;
+                        bottom: 0px;
+                        border: 5px solid transparent;
+                        border-bottom-color: #ddd;
+                        transition:0.1s ease-in-out;
+                    }
+                    */
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.one {
+  width: 100%;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.three {
+  width: 33%;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li span.round-tabs {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  display: inline-block;
+  border-radius: 100px;
+  background: white;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #DDD;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li span.round-tabs-user {
+  color: #3e5e9a;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li span.round-tabs-code {
+  color: #febe29;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li span.round-tabs-done {
+  color: #22c222;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li a {
+  width: 70px;
+  height: 70px;
+  margin: 20px auto;
+  border-radius: 100%;
+  padding: 0;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li a:hover {
+  background: transparent;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active {
+  /*
+                    &:after {
+                        content: " ";
+                        position: absolute;
+                        left: 45%;
+                        opacity:1;
+                        margin: 0 auto;
+                        bottom: 0px;
+                        border: 10px solid transparent;
+                        border-bottom-color: #ddd;
+                    }
+                    */
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active span.round-tabs {
+  background: #fafafa;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active span.round-tabs-user {
+  border: 2px solid #3e5e9a;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active span.round-tabs-code {
+  border: 2px solid #febe29;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active span.round-tabs-done {
+  border: 2px solid #22c222;
+}
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active > a,
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active > a:hover,
+.sign-wizard-bc .board > div.board-inner .nav-tabs > li.active > a:focus {
+  color: #555555;
+  cursor: default;
+  border: 0;
+  border-bottom-color: transparent;
+}
+.sign-wizard-bc .board > div.tab-content .tab-pane {
+  position: relative;
+  padding-top: 30px;
+}
+.sign-wizard-bc .board > div.tab-content .tab-pane .user-form-bc {
+  padding-top: 0;
+}
+.sign-wizard-bc .board > div.tab-content .tab-pane .user-form-bc .container {
+  width: auto;
+}
+.user-form-bc {
+  padding-top: 70px;
+}
+.user-form-bc .form-wrap {
+  width: 42%;
+  margin: 0 auto;
+}
+.user-form-bc .form-group {
+  margin-bottom: 25px;
+}
+.user-form-bc h1 {
+  color: #5FB0E4;
+  font-size: 24px;
+  letter-spacing: 8px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.user-form-bc .btn {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.user-form-bc .link-sign-up {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+}
+.user-list-bc {
+  padding-top: 70px;
+}
+.user-list-bc .list-row-title {
+  margin-bottom: 14px;
+}
+.user-list-bc .list-row-title:last-child {
+  margin-bottom: 0;
+}
+.user-list-bc .list-row-title .dropdown-row {
+  margin: 13px 0;
+  padding: 5px;
+  height: 100%;
+}
+.user-list-bc .list-row-title .dropdown-row:hover {
+  cursor: pointer;
+}
+.user-list-bc .list-row-information .panel-footer {
+  text-align: right;
+}
+.user-list-bc .row-icon {
+  padding: 0 10px;
+}
+.user-list-bc .table > tbody > tr {
+  border-top: 1px solid #dddddd;
+}
+.user-list-bc .table > tbody > tr:first-child {
+  border-top: 0;
+}
+.user-list-bc .table > tbody > tr > td {
+  border-top: 0;
+}
+.ego-tree-height {
+  height: 558px;
+  overflow: auto;
+}
+.login-wrap {
+  max-width: 320px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+.login-auto {
+  font-size: 1.2em;
+}
