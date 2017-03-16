@@ -41,5 +41,5 @@
 `npm test`
 
 目前项目使用的vue版本为2.2.2，vuex版本为2.2.1，axios版本为0.15.3，webpack版本为2.2.1，最低node版本要求为4.0.0以上
-##更新记录
-1.0.1   把state mutation action 放在store下面，使目录更加清晰易懂。
+## 更新记录
+1.0.1   把和vuex相关的文件全部移动至在store下面，使目录更加清晰易懂。
