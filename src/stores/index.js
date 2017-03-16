@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import adminStates from '../states/admin'
-import adminMutations from '../mutations/admin'
-import adminActions from '../actions/admin'
+import adminStates from './states/admin'
+import adminMutations from './mutations/admin'
+import adminActions from './actions/admin'
 
 Vue.use(Vuex)
 
