@@ -1,0 +1,20 @@
+{
+  "name": "koa2apiserver",
+  "version": "1.0.1",
+  "description": "this is a koa2 API server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haise",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-onerror": "^3.1.0",
+    "koa-router": "^7.1.1",
+    "koa2-pixie-proxy": "^2.0.3",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
