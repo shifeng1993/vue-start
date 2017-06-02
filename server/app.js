@@ -4,6 +4,8 @@ const bodyparser = require('koa-bodyparser');
 const json = require('koa-json');
 const onerror = require('koa-onerror');
 const app = new Koa();
+var server = require('http').Server(app.callback());
+var io = require('socket.io')(server);
 
 // 引入路由
 const index = require('./routes/index');
@@ -28,7 +30,19 @@ app.use(async(ctx, next) => {
 });
 
 // 监听端口开启服务
-app.listen(port, () => console.log("服务已经启动，APIhost：" + host + port));
+server.listen(port, () => console.log("服务已经启动，APIhost：" + host + port));
+
+io.on('connection', function (socket) {
+  socket.emit('连接成功');
+  socket.on('onindex', function (data) {
+    console.log(data);
+  });
+  var index = 1;
+  function a(){
+    socket.emit('news',index++);
+  }
+  setInterval(a,3000)
+});
 
 /*引入路由文件*/
 app.use(index.routes(), index.allowedMethods());
