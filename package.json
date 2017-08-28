@@ -14,12 +14,12 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "axios": "^0.16.1",
-    "qs": "^6.4.0",
-    "socket.io-client": "^2.0.2",
-    "vue": "^2.3.3",
+    "axios": "^0.16.2",
+    "qs": "^6.5.0",
+    "socket.io-client": "^2.0.3",
+    "vue": "^2.4.2",
     "vue-axios": "^2.0.2",
-    "vue-router": "^2.3.1",
+    "vue-router": "^2.7.0",
     "vuex": "^2.3.1"
   },
   "devDependencies": {
