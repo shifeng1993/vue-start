@@ -1,67 +1,30 @@
 # vue-start
-使用vue-cli搭建的一个项目脚手架,以前端开发为主，koa2为辅。vue版本为2.4.2，nodejs版本>=7.6.0。
-#### 技术栈：
-- vue
-- vue-router
-- vuex
-- axios
-- vue-axios
-- node-sass
-- webpack
-- mocha
-- nodejs
-- koa2
-- pm2
-- es6/7
-- mockjs
-- koa2-pixie-proxy
-- socket.io
 
-## 项目使用
-### 克隆到本地
-`git clone https://github.com/shifeng1993/vue-start.git your-app-name`
-### 进入文件夹并安装依赖
-`cd your-app-name`
+> A Vue.js project
 
-`npm install`
+## Build Setup
 
-### 运行开发环境
-`npm run dev`
+``` bash
+# install dependencies
+npm install
 
-### 打包编译
-`npm run build`
+# serve with hot reload at localhost:8080
+npm run dev
 
-### 单元测试
-`npm run unit`
+# build for production with minification
+npm run build
 
-### 自动化测试
-`npm run e2e`
+# build for production and view the bundle analyzer report
+npm run build --report
 
-### 全部测试
-`npm test`
+# run unit tests
+npm run unit
 
-## 版本特性
+# run e2e tests
+npm run e2e
 
-#### 1.0.1
+# run all tests
+npm test
+```
 
-把和vuex相关的文件全部移动至在store下面，使目录更加清晰易懂。
-
-#### 1.1.0  
-
-1.升级了vue版本以及全家桶版本。
-
-2.使用koa2替换了了原本的server。更快捷方便，性能更好，因使用。
-
-#### 1.2.0
-
-1.升级了vue版本以及全家桶版本至2.3.3。
-
-2.加入了socket.io，以及连接示例。
-
-#### 1.2.1
-
-1.升级了vue版本以及全家桶版本至2.4.2。
-## 待添加特性
-
-1.升级vue版本
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
